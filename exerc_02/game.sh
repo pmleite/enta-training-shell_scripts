@@ -31,3 +31,5 @@ while (( $play != 0  ));do
         play=0
     fi
 done
+
+echo Terminou o Jogo!!!
