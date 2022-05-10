@@ -19,13 +19,13 @@ while (( $play != 0  ));do
     read palpite
     if (( $palpite < $result ));   
         then
-        echo "muito pequeno! Tente de novo"
-        read tentativa
+        echo "Inferior! Tente de novo"
+        sleep 2
     elif (( $palpite > $result )); then
-        echo "muito maior! tente de novo"
-        read tentativa
+        echo "Superior! tente de novo"
+        sleep 2
     elif (( $palpite == $result )); then
-        printf "\a Acertou!!!! \n"
+        printf "Acertou!!!! \n"
         echo "pressione enter para terminar"
         read sair
         play=0
