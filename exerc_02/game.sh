@@ -13,12 +13,10 @@ read NOME
 result=$((min + RANDOM % $((max-min))))
 
 while (( $play != 0  ));do
-    
     clear
     echo "ola $NOME tente adivinhar o número"
     printf "Qual o seu palpite? "
     read palpite
-
     if (( $palpite < $result ));   
         then
         echo "muito pequeno! Tente de novo"
