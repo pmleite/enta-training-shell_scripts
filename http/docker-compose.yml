@@ -1,0 +1,19 @@
+version: '3'
+
+networks:
+  net2:
+
+services:
+ 
+  web:
+    container_name: webserver
+    image: nginx:latest
+    ports:
+      - 8080:80
+    volumes:
+      - ./conf:/etc/nginx/conf.d/.
+      - ./src:/usr/share/nginx/html/.
+    networks:
+      - net2
+
+      
