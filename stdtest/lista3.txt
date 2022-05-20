@@ -1,0 +1,1 @@
+ls: impossível aceder a 'omeute.txt': Ficheiro ou pasta inexistente

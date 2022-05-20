@@ -24,6 +24,10 @@ while [ 1 ]; do
        ;;
    esac
 done
+
 clear
 echo Script terminado!
+exit 6
+
+
 
