@@ -17,7 +17,6 @@ services:
     networks:
       - my-http-net
   
-  
   myweb2:
     build: ../web/.
     container_name: my-enginx2
