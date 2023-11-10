@@ -1,1 +1,0 @@
-ls: impossível aceder a 'teste.txt': Ficheiro ou pasta inexistente

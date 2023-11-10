@@ -1,25 +1,25 @@
 #!/bin/bash
 
-# while [[ 1 ]]; do
-#     echo Olá
-#     sleep 2
-#     break
-# done
+while [[ 1 ]]; do
+    echo Olá
+    sleep 2
+    break
+done
 
-# echo dá-me um valor
-# read item
-# case "${item}" in
-#     1)
-#         echo "item = 1"
-#     ;;
-#     2|3)
-#         echo "item = 2 or item = 3"
-#     ;;
-#     *)
-#         echo "default (none of above)"
-#         break
-#     ;;
-# esac
+echo dá-me um valor
+read item
+case "${item}" in
+    1)
+        echo "item = 1"
+    ;;
+    2|3)
+        echo "item = 2 or item = 3"
+    ;;
+    *)
+        echo "default (none of above)"
+        break
+    ;;
+esac
 
 while [[ 1 ]]; do
    clear
